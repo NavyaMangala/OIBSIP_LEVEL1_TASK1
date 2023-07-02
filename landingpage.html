@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "poppins",sans-serif;
+    }
+    .hero{
+      width: 100%;
+      min-height: 100vh;
+      color: #fff;
+      position: relative;
+      background: linear-gradient(to right,#094282,#6d00ff 70%,#6d00ff 70%);
+      padding: 10px 8%; 
+    }
+nav{
+   position: fixed;
+   width: 100%;
+   padding: 15px 8%;
+   display: flex;
+   align-items: center;
+   z-index: 10;
+   top: 0;
+   left: 0;
+}
+nav img{
+  width: 200px;
+}
+nav ul{
+  flex: 1;
+  text-align: center;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+nav  a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.text-box{
+max-width: 500px;
+ margin-top: 18%;
+}
+.text-box h1{
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 90px;
+  margin-bottom: 10px;
+}
+.text-box p{
+  line-height: 28px;
+}
+.text-box button{
+  padding: 20px 40px;
+  outline: 0;
+  border: 0;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  background: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.text-box button:last-child{
+  background: #5957cf;
+  color: #fff;
+}
+.img{
+  width: 290px;
+  top: 25%;
+  right: 12%;
+  position: absolute;
+  z-index: 2;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+}
+.sidebar{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: linear-gradient(#8569ff,#006786);
+  width: 28%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sidebar a{
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  transform: rotate(90deg);
+ 
+}
+.sidebar a img{
+  height: 30px;
+  margin-left: 0px;
+  margin-right: 10px;
+ transform: rotate(-90deg);
+}
+  </style>
+</head>
+
+<body>
+<div class="hero">
+  <nav>
+    <img src="/studio/images/logo.png" alt="">
+    <ul>
+     <li><a href="#">services</a></li>
+  <li><a href="#">products</a></li>
+    <li><a href="#">contact us</a></li>
+    </ul>
+   <a href="#">partnership program</a>
+  </nav>
+  <div class="text-box">
+    <h1>Creative <br>Design Studio</h1>
+    <p>More people trust us than any other domain provider. Since the right domain name can set you up for future success, you don't want to mess around. Go with the world's largest registrar.</p>
+    <button >Explore Now</button>
+    <button>See the plans</button>
+  </div>
+  <img src="studio/images/image.png" alt="" class="img">
+  <div class="sidebar">
+ <a href="#"><img src="studio/images/arrow.png" alt="">Our recent projects</a> 
+</div>
+</div>
+</body>
+</html>
+
+    
+</body>
+</html>
